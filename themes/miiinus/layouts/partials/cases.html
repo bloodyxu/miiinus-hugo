@@ -1,0 +1,10 @@
+<!--Case-->
+<section>
+    <div class="fl w-100 pt6 tc">
+        <!--<p class="section-title">Cases</p>
+        <p class="center section-title-line"></p>-->
+    </div>
+    {{ range .Paginator.Pages }}
+	    {{ .Render "li" }} 
+    {{ end }}
+</section>

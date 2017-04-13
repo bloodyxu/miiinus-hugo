@@ -1,0 +1,78 @@
+{{ partial "head.html" . }}
+
+<body>
+	<!--Page header-->
+	<section>
+		<div class="mw8 cf center">
+			<div class="fl w-100 w-50-ns pt4-ns pt4 pb6-ns pb5 ph3 tl ">
+				<a href="{{ .Site.BaseURL }}" class="trigger">
+					<span class="branding">miiinus</span>
+				</a>
+				<span class="brand_slogan v-mid ph2">| more than minus</span>
+			</div>
+		</div>
+		
+	</section>
+	<!--Content-->
+	<section class="page-content">
+		<div class="mw8 center">
+			<div class="cf">
+				<div class="fl w-100 w-50-ns pb5 ph3">
+					<div class="page-case-name">
+						<p class="title">{{ .Title }}</p>
+						<p class="subtitle">{{ .Params.subtitle }}</p>
+					</div>
+				</div>
+				<div class="fl w-100 w-50-ns pb5 ph3 db-ns dn">
+					<div class="page-case-name">
+						<p class="bold tr v-btm">{{ .Params.casecate }}</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<article class="fl w-100 tc content-wrap">
+			{{ .Content }}
+		</article>
+		{{ if and (or .PrevInSection .NextInSection) (not .Params.noprevnext) }}
+		<nav class="mw8 center">
+			<div class="fl w-50 pa5 tl">
+				{{ if .PrevInSection }}
+				<p>Previous</p>
+				<a href="{{ .PrevInSection.Permalink }}" class="grow dib no-underline">
+					<div class="f3">{{ .PrevInSection.Title }}</div>
+				</a>
+				{{ end }}
+			</div>
+			<div class="fl w-50 pa5 tr">
+				{{ if .NextInSection }}
+				<p>Next</p>
+				<a href="{{ .NextInSection.Permalink }}" class=" grow dib no-underline">
+					<div class="f3">{{ .NextInSection.Title }}</div>
+				</a>
+				{{ end }}
+			</div>
+		</nav>
+		{{ end }}
+	</section>
+	<!--footer-->
+    {{ partial "footer.html" . }}
+</body>
+<!--Retina-->
+<script>
+    (function() {
+        console.log(window.devicePixelRatio);
+
+        if (window.devicePixelRatio > 1) {
+            const aImg = document.querySelectorAll('img');
+
+            aImg.forEach(function(oImg) {
+                const lowres = oImg.src;
+                const highres = lowres.replace(/\.(\w+)$/g, "@2x.$1");
+                oImg.src = highres;
+            });
+        }
+    })()
+</script>
+
+</html>

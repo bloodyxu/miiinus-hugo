@@ -1,0 +1,316 @@
+/* ==========变量========== */
+@import url('../fonts/stylesheet.css');
+/* ==========公共========== */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'hind_regularregular', 'Pingfang SC', 'Microsoft YaHei';
+}
+p {
+  font-size: 1rem;
+  font-family: 'hind_regularregular';
+}
+a {
+  color: #9B9B9B;
+  font-weight: 700;
+  text-decoration: none;
+}
+a:hover {
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  color: #ff8c63;
+}
+h2 {
+  font-family: 'hindbold';
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #252525;
+}
+html {
+  font-size: 100%;
+  color: #252525;
+}
+body {
+  font-family: 'hind_regularregular';
+  font-size: 62.5%;
+  color: #4a4a4a;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+figure {
+  margin: 0px;
+}
+.big-link {
+  font-family: 'hind_regularregular';
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.branding:after {
+  content: '';
+  display: block;
+  height: 0.1rem;
+  width: 0;
+  position: absolute;
+  background-color: #000;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+  pointer-events: none;
+  -webkit-animation: goback 0.3s ease-in-out;
+  animation: goback 0.3s ease-in-out;
+}
+.trigger:hover .branding:after {
+  width: 100%;
+  color: #FFF;
+  animation: branding 0.3s ease-in-out;
+  -moz-animation: branding 0.3s ease-in-out;
+  -webkit-animation: branding 0.3s ease-in-out;
+  -o-animation: branding 0.3s ease-in-out;
+}
+.goback {
+  width: 100%;
+  color: #FFF;
+  animation: goback 0.3s ease-in-out;
+  -moz-animation: goback 0.3s ease-in-out;
+  -webkit-animation: goback 0.3s ease-in-out;
+  -o-animation: goback 0.3s ease-in-out;
+}
+@-webkit-keyframes branding {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes branding {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-webkit-keyframes goback {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+@keyframes goback {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+/* ==========区块========== */
+.section-title {
+  font-size: 4rem;
+  font-family: 'hindbold';
+  color: #252525;
+}
+.section-title-line {
+  display: block;
+  width: 50px;
+  border-bottom: 3px solid #252525;
+  padding-top: 20px;
+}
+/* ==========元素========== */
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.branding {
+  font-family: 'hindbold';
+  font-size: 1.5rem;
+  color: #252525;
+  position: relative;
+  height: 1.5rem;
+  display: inline-block;
+}
+.brand_slogan {
+  font-family: 'hindlight';
+  font-size: 1rem;
+  height: 1.5rem;
+  display: inline-block;
+  color: #acacac;
+}
+.logo-text {
+  font-family: 'hindlight';
+  font-size: 1.2rem;
+  color: #484848;
+}
+.slogan {
+  color: #252525;
+}
+.slogan-title {
+  font-family: 'hindbold', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+}
+.intro-text {
+  font-family: 'hind_regularregular';
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+}
+.case-name {
+  font-size: 1.2rem;
+}
+.case-name .bold {
+  font-family: 'hindbold';
+  color: #252525;
+}
+.case-name .light {
+  font-family: 'hindlight';
+  font-weight: 200;
+}
+.page-case-name {
+  color: #252525;
+}
+.page-case-name .title {
+  font-family: 'hindbold';
+  font-size: 3rem;
+}
+.page-case-name .subtitle {
+  font-family: 'hindlight';
+  font-size: 2rem;
+  color: #999;
+}
+.cases-desc {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #c1c1c1;
+}
+.case-img {
+  max-width: 100%;
+}
+.content-box {
+  margin-top: 5rem;
+}
+.content-text {
+  line-height: 2.2rem;
+  font-size: 1.2rem;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+.content-text a {
+  font-weight: 500;
+}
+.content-wrap figure {
+  line-height: 0px;
+}
+.avatar {
+  margin-top: 2rem;
+}
+.f-name {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.f-link a {
+  font-size: 1.3rem;
+  color: #9B9B9B;
+  margin: 0px 5px 0px 5px;
+}
+.f-link a:hover {
+  color: #ff8c63;
+}
+.client-box {
+  font-family: 'hindbold';
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: 3rem;
+  line-height: 2rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 2rem;
+}
+.client-box img {
+  max-width: 100px;
+}
+.mail-link {
+  font-family: 'hindbold';
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ff8c63;
+}
+.footer {
+  margin-bottom: 100px;
+}
+.footer-link {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.footer-link ul {
+  display: inline-block;
+  padding-left: 0px;
+}
+.footer-link ul li {
+  list-style: none;
+  float: left;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.footer-link a {
+  color: #9B9B9B;
+  font-weight: 500;
+}
+.footer-link a:hover {
+  color: #ff8c63;
+}
+.copyright {
+  font-family: 'hindlight';
+  font-size: 0.8rem;
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 1rem;
+  }
+  body {
+    font-family: 'hind_regularregular';
+    font-size: 62.5%;
+    color: #4a4a4a;
+  }
+  .desc-text {
+    font-family: 'hind_regularregular';
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    margin-top: 2rem;
+    text-align: justify;
+    text-justify: ideographic;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  .section-box {
+    padding-top: 80px;
+  }
+  .cases-desc {
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 1rem;
+    text-align: left !important;
+    float: left;
+  }
+  .content-text {
+    line-height: 1.8rem;
+    font-size: 1rem;
+  }
+}

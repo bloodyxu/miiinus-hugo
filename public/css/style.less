@@ -1,0 +1,192 @@
+@import url('../fonts/stylesheet.css');
+@import url('../fonts/PTSerif-Regular.css');
+@import url('../fonts/PTSerif-Bold.css');
+@font-color: #252525;
+@link: #ff8c63;
+@link-normal: #9B9B9B;
+@gray-text: #A2A2A2;
+@font-family: 'hind_regularregular',
+'Pingfang SC',
+'Microsoft YaHei';
+// 全局 
+* {
+    font-family: @font-family;
+}
+
+body {
+    font-family: @font-family;
+    font-size: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.gray-text {
+    color: @gray-text;
+}
+
+h1 {
+    font-family: 'hindbold';
+}
+
+h2 {
+    font-family: 'hindbold';
+}
+
+h3 {
+    font-family: 'hindbold';
+    font-size: 24px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 36px;
+    padding: 0px;
+    margin: 0px; 
+}
+
+a {
+    color: @link-normal;
+}
+
+a:hover {
+    z-index: 2;
+    color: @link;
+}
+
+.link-normal {
+    color: @link-normal;
+}
+
+figure,
+figcaption,
+main {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-wrap {
+    // position: relative; 
+}
+
+.hindbold {
+    font-family: 'hindbold';
+    font-weight: 700;
+}
+
+.PTSerif-Regular {
+    font-family: 'PTSerif-Regular';
+}
+
+.auto-height {
+    max-height: calc(100vh - 5vmax - 5ex); // background-color: @link; 
+}
+
+.line-wrap {
+    position: relative; // border-top: 1px solid #EEE; 
+}
+
+.v-line {
+    pointer-events: none;
+    border-right: 1px solid #EEE;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    overflow: hidden;
+}
+
+.short-line {
+    display: block;
+    height: 5px;
+    width: 50px;
+    background: #000;
+    position: absolute;
+    z-index: -1;
+    top: 45%;
+    left: 67%;
+}
+
+.slogan {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+
+.brand-slogan {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.brand-subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.big-title {
+    font-family: 'hindbold';
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.cases-img {
+    padding-top: 50px;
+    img {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+.clients {
+    ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        line-height: 36px;
+        li {
+            font-family: 'PTSerif-Regular';
+        }
+    }
+}
+
+.social-link {
+    float: left;
+    font-size: 1rem;
+    color: @gray-text;
+}
+
+.mail-link {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    color: @link;
+}
+
+.f-link {
+    a {
+        color: @gray-text;
+        font-size: 1rem;
+    }
+    a:hover {
+        color: @link;
+    }
+}
+
+.copyright {
+    color: @gray-text;
+    font-family: @font-family;
+    font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+    .slogan {
+        padding-top: 15vh;
+        padding-bottom: 10vh;
+    }
+    .short-line {
+        display: none;
+    }
+    .mail-link {
+        font-size: 2.5rem;
+    }
+    .v-line {
+        display: none;
+    }
+}

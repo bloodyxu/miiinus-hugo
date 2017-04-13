@@ -1,0 +1,29 @@
+<!--
+	li.html 案例列表
+-->
+<div class="cf mw8 center ph3">
+	<div class="fl w-100">
+		<div class="cf pt6-ns pt5">
+			<div class="fl w-100 w-50-ns">
+				<div class="bg-white pv4-ns pv2">
+					<div class="case-name">
+						<span class="bold">{{ .Title }}</span>
+						<span class="light"> - {{ .Params.subtitle }}</span>
+					</div>
+				</div>
+			</div>
+			<div class="fl w-100 w-50-ns dn db-ns">
+				<div class="bg-white pv4-ns">
+					<div class="tl tr-ns cases-desc">
+						<span class="bold">{{ .Params.casecate }}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="fl w-100 tc">
+	<a href="{{ .Permalink }}" class="dim black b">
+		<img src="{{ .Params.mainImgPath }}" class="w-100" alt="">
+	</a>
+</div>

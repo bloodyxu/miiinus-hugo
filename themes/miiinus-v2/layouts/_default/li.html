@@ -1,0 +1,17 @@
+<!--
+	li.html 案例列表
+-->
+<div class="cf cases-box mb7-ns mb5">
+	<div class="cf cases-info">
+		<div class="fl w-40-ns dib v-mid"><a href="{{ .Permalink }}" class="big-title no-underline black link">{{ .Title }}</a></div>
+		<div class="fl w-60-ns PTSerif-Regular  dib v-mid">
+			<p class="PTSerif-Regular b">{{ .Params.subtitle }}</p>
+			<p class="PTSerif-Regular">{{ .Params.casecate }}</p>
+		</div>
+	</div>
+	<div class="fl w-100 cases-img">
+		<a href="{{ .Permalink }}" class="dib cases-link">
+			<img src="{{ .Params.mainImgPath }}" class="mw-100" alt="">
+		</a>
+	</div>
+</div>

@@ -1,0 +1,36 @@
+{{ partial "head.html" . }}
+
+<body>
+    <!--header-->
+    {{ partial "header.html" . }}
+    <!--cases-->
+    {{ partial "cases.html" . }}
+    <!--about-->
+    {{ partial "about.html" . }}
+    <!--founders-->
+    {{ partial "founders.html" . }}
+    <!--how we work-->
+    {{ partial "how.html" . }}
+    <!--Get in touch-->
+    {{ partial "touch.html" . }}
+    <!--footer-->
+    {{ partial "footer.html" . }}
+</body>
+<!--Retina-->
+<script>
+    (function() {
+        console.log(window.devicePixelRatio);
+
+        if (window.devicePixelRatio > 1) {
+            const aImg = document.querySelectorAll('img');
+
+            aImg.forEach(function(oImg) {
+                const lowres = oImg.src;
+                const highres = lowres.replace(/\.(\w+)$/g, "@2x.$1");
+                oImg.src = highres;
+            });
+        }
+    })()
+</script>
+
+</html>

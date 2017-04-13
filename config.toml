@@ -1,0 +1,29 @@
+languageCode = "en-us"
+title = "miiinus | A boutique design agency"
+baseurl = "http://miiinus.com"
+themesDir = "themes"
+theme = "miiinus-v2"
+googleAnalytics = "UA-89281619-1"
+camelCase = "true"
+[params]
+	name = "miiinus"
+	description = "more than minus"
+	enableRSS = true
+	
+	# 定义网站文字
+	sloganTitle = "Products, Brands & Digital Experience"
+
+	introText = "A boutique design agency focusing on Mobile, Web, Brand and Product Experience."
+
+	about = "Just like our name indicates, we are dedicated to creating more values beyond minimizing. This is the central promise of our brand, that we design more than minus. No matter you are a startup or an established brand, we always find the best solution to distance your product from others and make your brands shine."
+
+	peopleText = "Each partner of miiinus brought wealth of experience and knowledge to the agency. They are specialists at various fields and served plenty of prominent brands. Different backgrounds help us identify brand values through distinct touch points and convert them to unique design language. "
+
+	servicesText = "We are proficient in an array of services ranging from product design, interface design, interaction design, branding strategy to every phase of implementation. We not only create products from conception, but also help established products and brands get closer to perfect. For sure, if you have any design needs, we’d love to talk about how our services can add value to your company and we believe every communication is an opportunity to innovate."
+
+	copyright = "2016 miiinus. All rights reserved. We based in Xi'an, China"
+
+	# 定义案例信息
+	subTitle = ""
+	caseCate = ""
+	mainImgPath = ""

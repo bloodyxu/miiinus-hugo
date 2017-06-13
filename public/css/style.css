@@ -54,7 +54,7 @@ main {
   font-family: 'PTSerif-Regular';
 }
 .auto-height {
-  max-height: calc(90vh);
+  height: calc(95vh);
 }
 .line-wrap {
   position: relative;

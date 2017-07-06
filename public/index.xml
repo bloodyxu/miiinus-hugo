@@ -2,69 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>miiinus | A boutique design agency</title>
-    <link>http://miiinus.com/index.xml</link>
+    <link>http://miiinus.com/</link>
     <description>Recent content on miiinus | A boutique design agency</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2016 miiinus. All rights reserved. We based in Xi&#39;an, China</copyright>
     <lastBuildDate>Wed, 08 Feb 2017 16:17:39 +0800</lastBuildDate>
-    <atom:link href="http://miiinus.com/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://miiinus.com/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Kiss Steak</title>
-      <link>http://miiinus.com/post/kissSteak/</link>
+      <link>http://miiinus.com/post/kisssteak/</link>
       <pubDate>Wed, 08 Feb 2017 16:17:39 +0800</pubDate>
       
-      <guid>http://miiinus.com/post/kissSteak/</guid>
-      <description>&lt;p&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/kiss/kiss01.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/kiss/kiss02.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/kiss/kiss07.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/kiss/kiss04.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/kiss/kiss05.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/kiss/kiss06.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-&lt;/p&gt;
-</description>
+      <guid>http://miiinus.com/post/kisssteak/</guid>
+      <description>       </description>
     </item>
     
     <item>
@@ -73,55 +27,7 @@
       <pubDate>Wed, 08 Feb 2017 12:50:42 +0800</pubDate>
       
       <guid>http://miiinus.com/post/case02/</guid>
-      <description>&lt;p&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/bubei/bubei-1.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/bubei/bubei-2.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/bubei/bubei-3.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/bubei/bubei-4.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/bubei/bubei-5.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/bubei/bubei-6.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-&lt;/p&gt;
-</description>
+      <description>       </description>
     </item>
     
     <item>
@@ -130,31 +36,7 @@
       <pubDate>Wed, 08 Feb 2017 12:50:42 +0800</pubDate>
       
       <guid>http://miiinus.com/post/case01/</guid>
-      <description>&lt;p&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/mango/mango1.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/mango/mango2.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://miiinus.com/images/cases/mango/mango3.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-&lt;/p&gt;
-</description>
+      <description>    </description>
     </item>
     
   </channel>

@@ -4,6 +4,7 @@
 * {
   font-family: 'hind_regularregular', 'Pingfang SC', 'Microsoft YaHei';
 }
+
 body {
   font-family: 'hind_regularregular', 'Pingfang SC', 'Microsoft YaHei';
   font-size: 100%;
@@ -11,54 +12,68 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .gray-text {
   color: #A2A2A2;
 }
+
 h1 {
   font-family: 'hindbold';
 }
+
 h2 {
   font-family: 'hindbold';
 }
+
 h3 {
   font-family: 'hindbold';
   font-size: 24px;
 }
+
 p {
   font-size: 1.2rem;
   line-height: 36px;
   padding: 0px;
   margin: 0px;
 }
+
 a {
   color: #9B9B9B;
 }
+
 a:hover {
   z-index: 2;
   color: #ff8c63;
 }
+
 .link-normal {
   color: #9B9B9B;
 }
+
 figure,
 figcaption,
 main {
   margin: 0px;
   padding: 0px;
 }
+
 .hindbold {
   font-family: 'hindbold';
   font-weight: 700;
 }
+
 .PTSerif-Regular {
   font-family: 'PTSerif-Regular';
 }
+
 .auto-height {
   height: calc(95vh);
 }
+
 .line-wrap {
   position: relative;
 }
+
 .v-line {
   pointer-events: none;
   border-right: 1px solid #EEE;
@@ -67,6 +82,7 @@ main {
   height: 100%;
   overflow: hidden;
 }
+
 .short-line {
   display: block;
   height: 5px;
@@ -77,61 +93,75 @@ main {
   top: 45%;
   left: 67%;
 }
+
 .slogan {
   padding-top: 30vh;
   padding-bottom: 30vh;
 }
+
 .brand-slogan {
   font-size: 4rem;
   font-weight: 700;
 }
+
 .brand-subtitle {
   font-size: 1.5rem;
   font-weight: 500;
 }
+
 .big-title {
   font-family: 'hindbold';
   font-size: 4rem;
   font-weight: 700;
 }
+
 .cases-img {
   padding-top: 50px;
 }
+
 .cases-img img {
   padding: 0px;
   margin: 0px;
 }
+
 .clients ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
   line-height: 36px;
 }
+
 .clients ul li {
   font-family: 'PTSerif-Regular';
 }
+
 .social-link {
   float: left;
   font-size: 1rem;
   color: #A2A2A2;
 }
+
 .mail-link {
   font-size: 4rem;
   line-height: 4.5rem;
   color: #ff8c63;
 }
+
 .f-link a {
   color: #A2A2A2;
   font-size: 1rem;
 }
+
 .f-link a:hover {
   color: #ff8c63;
 }
+
 .copyright {
   color: #A2A2A2;
   font-family: 'hind_regularregular', 'Pingfang SC', 'Microsoft YaHei';
   font-size: 1rem;
 }
+
 @media (max-width: 480px) {
   .slogan {
     padding-top: 15vh;

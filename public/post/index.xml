@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2016 miiinus. All rights reserved. We based in Xi&#39;an, China</copyright>
-    <lastBuildDate>Wed, 08 Feb 2017 16:17:39 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://miiinus.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Zuo</title>
+      <link>http://miiinus.com/post/zuo/</link>
+      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://miiinus.com/post/zuo/</guid>
+      <description>     </description>
+    </item>
     
     <item>
       <title>Kiss Steak</title>

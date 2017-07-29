@@ -1,13 +1,13 @@
 {{ partial "head.html" . }}
 
 <body>
-	<div class="mw9 ph5-ns ph2 center main-wrap">
-		<!--logo-->
-		<section>
-			<div class="center header">
-				<div class="w-100 pv4">
-					<a href="{{ .Site.BaseURL }}">
-						<svg width="125px" height="31px" viewBox="120 99 125 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <div class="mw9 ph5-ns ph2 center main-wrap">
+        <!--logo-->
+        <section>
+            <div class="center header">
+                <div class="w-100 pv4">
+                    <a href="{{ .Site.BaseURL }}">
+                        <svg width="125px" height="31px" viewBox="120 99 125 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 							<defs>
 								<linearGradient id="grayGradient">
 									<stop offset="0%" stop-color="#000000">
@@ -23,63 +23,63 @@
 								 id="Page-1" fill="url(#grayGradient)"></path>
 							</g>
 						</svg>
-					</a><span class="pl3 gray-text">More than minus</span>
-				</div>
-			</div>
-		</section>
-		<!--案例图集-->
-		<section>
-			<div class="cf mt7 mb7-ns mb5 cases-box ">
-				<div class="cf cases-info">
-					<div class="fl w-40-ns big-title dib v-mid">{{ .Title }}</div>
-					<div class="fr-ns fl w-60-ns garamond  dib v-mid">
-						<p class="PTSerif-Regular">{{ .Params.subtitle }}</p>
-						<p class="PTSerif-Regular">{{ .Params.casecate }}</p>
-					</div>
-				</div>
-				<article class="cf fl w-100 cases-img">
-					{{ .Content }}
-				</article>
-				{{ if and (or .PrevInSection .NextInSection) (not .Params.noprevnext) }}
-				<nav class="cf w-100center">
-					<div class="fl w-50 pt5">
-						{{ if .NextInSection }}
-						<a href="{{ .NextInSection.Permalink }}" class="dib no-underline link-normal">
-							<p class="hindbold f3 black">Next Project</p>
-						</a>
-						<div class="f4 gray">{{ .NextInSection.Title }}</div>
-						{{ end }}
-					</div>
-					<div class="fl w-50 pt5 tr">
-						<!--{{ if .PrevInSection }}
+                    </a><span class="pl3 gray-text">More than minus</span>
+                </div>
+            </div>
+        </section>
+        <!--案例图集-->
+        <section>
+            <div class="cf mt7 mb7-ns mb5 cases-box ">
+                <div class="cf cases-info">
+                    <div class="fl w-40-ns big-title dib v-mid">{{ .Title }}</div>
+                    <div class="fr-ns fl w-60-ns garamond  dib v-mid">
+                        <p class="PTSerif-Regular b">{{ .Params.subtitle }}</p>
+                        <p class="PTSerif-Regular">{{ .Params.casecate }}</p>
+                    </div>
+                </div>
+                <article class="cf fl w-100 cases-img">
+                    {{ .Content }}
+                </article>
+                {{ if and (or .PrevInSection .NextInSection) (not .Params.noprevnext) }}
+                <nav class="cf w-100center">
+                    <div class="fl w-50 pt5">
+                        {{ if .NextInSection }}
+                        <a href="{{ .NextInSection.Permalink }}" class="dib no-underline link-normal">
+                            <p class="hindbold f3 black">Next Project</p>
+                        </a>
+                        <div class="f4 gray">{{ .NextInSection.Title }}</div>
+                        {{ end }}
+                    </div>
+                    <div class="fl w-50 pt5 tr">
+                        <!--{{ if .PrevInSection }}
 						<p>Previous</p>
 						<a href="{{ .PrevInSection.Permalink }}" class="dib no-underline link-normal">
 							<div class="f3">{{ .PrevInSection.Title }}</div>
 						</a>
 						{{ end }}-->
-						<p class="copyright">2016 miiinus. All rights reserved. We based in Xi'an, China</p>
-					</div>
-				</nav>
-				{{ end }}
-			</div>
-		</section>
-	</div>
-	<script src="https://s22.cnzz.com/z_stat.php?id=1263000984&web_id=1263000984" language="JavaScript"></script>
+                        <p class="copyright">2016 miiinus. All rights reserved. We based in Xi'an, China</p>
+                    </div>
+                </nav>
+                {{ end }}
+            </div>
+        </section>
+    </div>
+    <script src="https://s22.cnzz.com/z_stat.php?id=1263000984&web_id=1263000984" language="JavaScript"></script>
 </body>
 <script>
-	(function () {
-		console.log(window.devicePixelRatio);
+    (function() {
+        console.log(window.devicePixelRatio);
 
-		if (window.devicePixelRatio > 1) {
-			const aImg = document.querySelectorAll('img');
+        if (window.devicePixelRatio > 1) {
+            const aImg = document.querySelectorAll('img');
 
-			aImg.forEach(function (oImg) {
-				const lowres = oImg.src;
-				const highres = lowres.replace(/\.(\w+)$/g, "@2x.$1");
-				oImg.src = highres;
-			});
-		}
-	})()
-
+            aImg.forEach(function(oImg) {
+                const lowres = oImg.src;
+                const highres = lowres.replace(/\.(\w+)$/g, "@2x.$1");
+                oImg.src = highres;
+            });
+        }
+    })()
 </script>
+
 </html>

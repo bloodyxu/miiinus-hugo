@@ -4,5 +4,5 @@ subTitle = ""
 caseCate = ""
 mainImgPath = "images/cases/"
 date = ""
-
+caseContent = ""
 +++

@@ -1,0 +1,8 @@
+<!-- 案例页面中插入的大型标题文字 -->
+{{ $paramCount := len .Params }} {{ if gt $paramCount 0 }}
+<div class="center w-80 cf">
+    {{ range $param := .Params }} {{ $items := split $param "|" }} {{ $itemCount := len $items }} {{ if ge $itemCount 2 }}
+    <h1 class="{{ index $items 0 }}">{{ index $items 1 }}</h1>
+    {{ end }}{{ end }}
+</div>
+{{ end }}

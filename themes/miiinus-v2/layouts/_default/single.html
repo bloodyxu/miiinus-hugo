@@ -30,6 +30,7 @@
         <!--案例图集-->
         <section>
             <div class="cf mt7 mb7-ns mb5 cases-box ">
+                <!-- 案例信息部分 -->
                 <div class="cf cases-info">
                     <div class="fl w-40-ns big-title dib v-mid">{{ .Title }}</div>
                     <div class="fr-ns fl w-60-ns garamond  dib v-mid">
@@ -37,9 +38,11 @@
                         <p class="PTSerif-Regular">{{ .Params.casecate }}</p>
                     </div>
                 </div>
+                <!-- 案例正文部分 -->
                 <article class="cf fl w-100 cases-img">
                     {{ .Content }}
                 </article>
+                <!-- 案例导航 -->
                 {{ if and (or .PrevInSection .NextInSection) (not .Params.noprevnext) }}
                 <nav class="cf w-100center">
                     <div class="fl w-50 pt5">

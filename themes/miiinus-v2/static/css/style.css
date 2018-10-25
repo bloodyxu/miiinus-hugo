@@ -14,6 +14,12 @@ body {
 .gray-text {
   color: #A2A2A2;
 }
+.hugeText {
+  text-align: center;
+  font-family: 'hind';
+  font-size: 3rem;
+  padding: 4rem;
+}
 h1 {
   font-family: 'hindbold';
 }

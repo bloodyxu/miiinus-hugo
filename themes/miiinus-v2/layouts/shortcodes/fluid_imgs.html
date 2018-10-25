@@ -1,0 +1,12 @@
+<!-- 案例页面中图片的动态排列 -->
+{{ $paramCount := len .Params }} {{ if gt $paramCount 0 }}
+<div class="mw9 cf">
+    {{ range $param := .Params }} {{ $items := split $param "|" }} {{ $itemCount := len $items }} {{ if ge $itemCount 2 }}
+    <div class="{{ index $items 0 }}">
+        <div>
+            <img class="w-100" src="{{ index $items 1 }}" alt="{{ if ge $itemCount 3 }}{{ index $items 2 }}{{ else }}{{ " " }}{{ end }}">
+        </div>
+    </div>
+    {{ end }} {{ end }}
+</div>
+{{ end }}

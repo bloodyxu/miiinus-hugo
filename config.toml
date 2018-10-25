@@ -7,7 +7,7 @@ googleAnalytics = "UA-89281619-1"
 camelCase = "true"
 [params]
 	name = "miiinus"
-	description = "more than minus"
+	description = "A Boutique Design Agency"
 	enableRSS = true
 	
 	# 定义网站文字
@@ -27,4 +27,5 @@ camelCase = "true"
 	subTitle = ""
 	caseCate = ""
 	mainImgPath = ""
+	caseContent = ""
 

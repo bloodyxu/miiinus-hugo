@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>miiinus | A boutique design agency</title>
+    <link>http://miiinus.com/</link>
+    <description>Recent content on miiinus | A boutique design agency</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://miiinus.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Matrix Audio</title>
+      <link>http://miiinus.com/post/matrix_audio/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://miiinus.com/post/matrix_audio/</guid>
+      <description>     我们为 Matrix Audio 打造了全新的品牌形象和新一代的产品外观.           We rendered lot of stunning images for the new Element Serise.                     </description>
+    </item>
+    
+    <item>
+      <title>Q Listen</title>
+      <link>http://miiinus.com/post/qlisten/</link>
+      <pubDate>Tue, 23 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://miiinus.com/post/qlisten/</guid>
+      <description>               </description>
+    </item>
+    
+    <item>
+      <title>Langeasy</title>
+      <link>http://miiinus.com/post/langeasy/</link>
+      <pubDate>Wed, 18 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://miiinus.com/post/langeasy/</guid>
+      <description>            --
+  </description>
+    </item>
+    
+    <item>
+      <title>Zuo</title>
+      <link>http://miiinus.com/post/zuo/</link>
+      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://miiinus.com/post/zuo/</guid>
+      <description>             </description>
+    </item>
+    
+    <item>
+      <title>Kiss Steak</title>
+      <link>http://miiinus.com/post/kisssteak/</link>
+      <pubDate>Wed, 08 Feb 2017 16:17:39 +0800</pubDate>
+      
+      <guid>http://miiinus.com/post/kisssteak/</guid>
+      <description>             </description>
+    </item>
+    
+    <item>
+      <title>Bubei Danci</title>
+      <link>http://miiinus.com/post/case02/</link>
+      <pubDate>Wed, 08 Feb 2017 12:50:42 +0800</pubDate>
+      
+      <guid>http://miiinus.com/post/case02/</guid>
+      <description>             </description>
+    </item>
+    
+    <item>
+      <title>Mango TV</title>
+      <link>http://miiinus.com/post/case01/</link>
+      <pubDate>Wed, 08 Feb 2017 12:50:42 +0800</pubDate>
+      
+      <guid>http://miiinus.com/post/case01/</guid>
+      <description>       </description>
+    </item>
+    
+  </channel>
+</rss>

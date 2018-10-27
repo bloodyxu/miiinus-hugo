@@ -54,17 +54,19 @@
                         {{ end }}
                     </div>
                     <div class="fl w-50 pt5 tr">
-                        <!--{{ if .PrevInSection }}
-						<p>Previous</p>
-						<a href="{{ .PrevInSection.Permalink }}" class="dib no-underline link-normal">
-							<div class="f3">{{ .PrevInSection.Title }}</div>
-						</a>
-						{{ end }}-->
-                        <p class="copyright">2016 miiinus. All rights reserved. We based in Xi'an, China</p>
+                        {{ if .PrevInSection }}
+                        <a href="{{ .PrevInSection.Permalink }}" class="dib no-underline link-normal">
+                            <p class="hindbold f3 black">Previous</p>
+                        </a>
+                        <div class="f4 gray">{{ .PrevInSection.Title }}</div>
+                        {{ end }}
+
                     </div>
                 </nav>
                 {{ end }}
+                <p class="copyright fr pv5">{{ .Site.Params.copyright }}</p>
             </div>
+
         </section>
     </div>
     <script src="https://embed.small.chat/T4XB9JW5UG54L6AURX.js" async></script>

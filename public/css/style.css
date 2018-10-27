@@ -1,0 +1,156 @@
+@import url('../fonts/stylesheet.css');
+@import url('../fonts/PTSerif-Regular.css');
+@import url('../fonts/PTSerif-Bold.css');
+* {
+  font-family: niveau-grotesk, sans-serif;
+}
+body {
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
+  font-size: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.gray-text {
+  color: #A2A2A2;
+}
+.hugeText {
+  text-align: center;
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding: 6rem;
+}
+h1 {
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
+}
+h2 {
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
+}
+h3 {
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
+  font-size: 24px;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 36px;
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  color: #9B9B9B;
+}
+a:hover {
+  z-index: 2;
+  color: #ff6600;
+}
+.link-normal {
+  color: #9B9B9B;
+}
+figure,
+figcaption,
+main {
+  margin: 0px;
+  padding: 0px;
+}
+.hindbold {
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
+  font-weight: 700;
+}
+.PTSerif-Regular {
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
+}
+.auto-height {
+  height: calc(95vh);
+}
+.line-wrap {
+  position: relative;
+}
+.v-line {
+  pointer-events: none;
+  border-right: 1px solid #EEE;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  overflow: hidden;
+}
+.short-line {
+  display: block;
+  height: 5px;
+  width: 50px;
+  background: #000;
+  position: absolute;
+  z-index: -1;
+  top: 45%;
+  left: 67%;
+}
+.slogan {
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+.brand-slogan {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.brand-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.big-title {
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
+  font-size: 4rem;
+  font-weight: 700;
+}
+.cases-img {
+  padding-top: 50px;
+}
+.cases-img img {
+  padding: 0px;
+  margin: 0px;
+}
+.clients ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  line-height: 36px;
+}
+.clients ul li {
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
+}
+.social-link {
+  float: left;
+  font-size: 1rem;
+  color: #A2A2A2;
+}
+.mail-link {
+  font-size: 4rem;
+  line-height: 4.5rem;
+  color: #ff6600;
+}
+.f-link a {
+  color: #A2A2A2;
+  font-size: 1rem;
+}
+.f-link a:hover {
+  color: #ff6600;
+}
+.copyright {
+  color: #A2A2A2;
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
+  font-size: 1rem;
+}
+@media (max-width: 480px) {
+  .slogan {
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+  }
+  .short-line {
+    display: none;
+  }
+  .mail-link {
+    font-size: 2.5rem;
+  }
+  .v-line {
+    display: none;
+  }
+}

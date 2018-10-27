@@ -23,7 +23,6 @@ title = "Matrix Audio"
 
 > }}
 
-![](/uploads/render02.png)
 
 {{< hugeText
 "hugeText|We rendered lot of stunning images for the new Element Serise."

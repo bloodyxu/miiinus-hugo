@@ -7,13 +7,13 @@ googleAnalytics = "UA-89281619-1"
 camelCase = "true"
 [params]
 	name = "miiinus"
-	description = "A Boutique Design Agency"
+	description = ""
 	enableRSS = true
 	
 	# 定义网站文字
-	sloganTitle = "Products, Brands & Digital Experience"
+	sloganTitle = "Brands, Products & Digital Experience"
 
-	introText = "A boutique design agency focusing on Mobile, Web, Brand and Product Experience."
+	introText = "Boutique design agency focusing on Brand, Mobile, Web and Product Experience."
 
 	about = "Just like our name indicates, we are dedicated to creating more values beyond minimizing. This is the central promise of our brand, that we design more than minus. No matter you are a startup or an established brand, we always find the best solution to distance your product from others and make your brands shine."
 

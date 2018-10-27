@@ -2,16 +2,15 @@
 @import url('../fonts/PTSerif-Regular.css');
 @import url('../fonts/PTSerif-Bold.css');
 @font-color: #252525;
-@link: #ff8c63;
+@link: #ff6600;
 @link-normal: #9B9B9B;
 @gray-text: #A2A2A2;
-@font-family: 'hind_regular',
-'Pingfang SC',
-'Microsoft YaHei';
+@font-family: 'niveau-grotesk', 'sans-serif','Pingfang SC','Microsoft YaHei';
 // 全局 
 * {
-    font-family: @font-family;
+    font-family: niveau-grotesk, sans-serif;
 }
+
 
 body {
     font-family: @font-family;
@@ -26,20 +25,21 @@ body {
 }
 .hugeText {
     text-align: center;
-    font-family: 'hind';
-    font-size: 3rem;
-    padding: 4rem;
+    font-family: @font-family;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 6rem;
 }
 h1 {
-    font-family: 'hindbold';
+    font-family: @font-family;
 }
 
 h2 {
-    font-family: 'hindbold';
+    font-family: @font-family;
 }
 
 h3 {
-    font-family: 'hindbold';
+    font-family: @font-family;
     font-size: 24px;
 }
 
@@ -75,12 +75,12 @@ main {
 }
 
 .hindbold {
-    font-family: 'hindbold';
+    font-family: @font-family;
     font-weight: 700;
 }
 
 .PTSerif-Regular {
-    font-family: 'hind_regularregular';
+    font-family: @font-family;
 }
 
 .auto-height {
@@ -127,7 +127,7 @@ main {
 }
 
 .big-title {
-    font-family: 'hindbold';
+    font-family: @font-family;
     font-size: 4rem;
     font-weight: 700;
 }
@@ -147,7 +147,7 @@ main {
         list-style: none;
         line-height: 36px;
         li {
-            font-family: 'hind_regularregular';
+            font-family: @font-family;
         }
     }
 }

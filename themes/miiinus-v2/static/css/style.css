@@ -2,10 +2,10 @@
 @import url('../fonts/PTSerif-Regular.css');
 @import url('../fonts/PTSerif-Bold.css');
 * {
-  font-family: 'hind_regular', 'Pingfang SC', 'Microsoft YaHei';
+  font-family: niveau-grotesk, sans-serif;
 }
 body {
-  font-family: 'hind_regular', 'Pingfang SC', 'Microsoft YaHei';
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
   font-size: 100%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -16,18 +16,19 @@ body {
 }
 .hugeText {
   text-align: center;
-  font-family: 'hind';
-  font-size: 3rem;
-  padding: 4rem;
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding: 6rem;
 }
 h1 {
-  font-family: 'hindbold';
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
 }
 h2 {
-  font-family: 'hindbold';
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
 }
 h3 {
-  font-family: 'hindbold';
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
   font-size: 24px;
 }
 p {
@@ -41,7 +42,7 @@ a {
 }
 a:hover {
   z-index: 2;
-  color: #ff8c63;
+  color: #ff6600;
 }
 .link-normal {
   color: #9B9B9B;
@@ -53,11 +54,11 @@ main {
   padding: 0px;
 }
 .hindbold {
-  font-family: 'hindbold';
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
   font-weight: 700;
 }
 .PTSerif-Regular {
-  font-family: 'hind_regularregular';
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
 }
 .auto-height {
   height: calc(95vh);
@@ -96,7 +97,7 @@ main {
   font-weight: 500;
 }
 .big-title {
-  font-family: 'hindbold';
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
   font-size: 4rem;
   font-weight: 700;
 }
@@ -114,7 +115,7 @@ main {
   line-height: 36px;
 }
 .clients ul li {
-  font-family: 'hind_regularregular';
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
 }
 .social-link {
   float: left;
@@ -124,18 +125,18 @@ main {
 .mail-link {
   font-size: 4rem;
   line-height: 4.5rem;
-  color: #ff8c63;
+  color: #ff6600;
 }
 .f-link a {
   color: #A2A2A2;
   font-size: 1rem;
 }
 .f-link a:hover {
-  color: #ff8c63;
+  color: #ff6600;
 }
 .copyright {
   color: #A2A2A2;
-  font-family: 'hind_regular', 'Pingfang SC', 'Microsoft YaHei';
+  font-family: 'niveau-grotesk', 'sans-serif', 'Pingfang SC', 'Microsoft YaHei';
   font-size: 1rem;
 }
 @media (max-width: 480px) {

@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "miiinus | A boutique design agency"
-baseurl = "http://miiinus.com"
+baseurl = "https://miiinus.com"
 themesDir = "themes"
 theme = "miiinus-v2"
 googleAnalytics = "UA-89281619-1"

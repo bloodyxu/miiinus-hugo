@@ -22,7 +22,12 @@ title = "Matrix Audio"
 
 {{< figure src="/images/cases/matrixaudio/ma-05.jpg" >}}
 {{< figure src="/images/cases/matrixaudio/ma-051.jpg" >}}
-{{< figure src="/images/cases/matrixaudio/ma-06.jpg" >}}
+{{< figure src="/images/cases/matrixaudio/ma-052.jpg" >}}
+
+{{< fluid_imgs
+"fl w-50|/images/cases/matrixaudio/ma-06.jpg|MA"
+"fl w-50|/images/cases/matrixaudio/ma-061.jpg|MA"
+>}}
 
 <div class="center w-60 tc pt6 pb6 f2 fw7">We rendered lot of stunning images for the new Element Serise."</div>
 
